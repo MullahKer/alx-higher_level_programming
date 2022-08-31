@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-def replace_in_list(list, index, ne):
+def element_at(list, index):
     n = len(list)
     if index >= 0 and index < n:
-        list[index] = ne
-    return(list)
+        return(list[index])
